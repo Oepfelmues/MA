@@ -23,8 +23,8 @@ GPIO.setup(m2_in4, GPIO.OUT)
 GPIO.setup(m2_pwm, GPIO.OUT)
 
 #PWM-Initialisierung
-pwm1 = GPIO.PWM(m1_pwm, 5) #1000 Hz als PWM-Frequenz
-pwm2 = GPIO.PWM(m2_pwm, 4.5)
+pwm1 = GPIO.PWM(m1_pwm, 5) #5 Hz als PWM-Frequenz
+pwm2 = GPIO.PWM(m2_pwm, 5)
 
 pwm1.start(0) #PWM in % als geschwinikeit
 pwm2.start(0)
