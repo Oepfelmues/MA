@@ -33,7 +33,9 @@ t = 7.8 #Variable für eine distanz für die Sietenlänge
 k = 1 # Variable um Zeit zu messen/ k in sek ist einen vektor
 v = 20 #Variable für die Geschwinikeit der Motoren in Prozent
 x = 10 #Variable für anzahl wiederholungen pro seite
-anpassung = 0.8
+anpassung = 0.8 #Variable um Längenunterschiede zu verbessern
+
+
 # Funktion zur Vorwärtsbewegung von Motor 1
 def m1_forward(v, k):
     GPIO.output(m1_in1, GPIO.HIGH)
